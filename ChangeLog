@@ -1,6 +1,7 @@
 CHANGES
 =======
 
+* 打包源码
 * update setup conf
 * build source code
 * 数据库迁移手脚架

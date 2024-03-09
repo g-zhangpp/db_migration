@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+db_migration.egg-info
+.idea/
+.python-version
+
+# Configuration file
+etc/db_migration/db_migration.conf
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.stestr/
+.coverage
+.cache
+coverage.xml
+cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+doc/build/
+
+# Rope
+.ropeproject/
+
+# Others
+*.sqlite
+*.swp
+*~
+*.swn
+*.swo
+*.DS_Store
+
+# tox -e docs
+AUTHORS
+ChangeLog
+
+releasenotes/build
