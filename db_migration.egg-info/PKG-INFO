@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: db-migration
-Version: 0.0.1.dev1
+Version: 0.0.1.dev3
 Summary: OpenStack db_migration
 Home-page: UNKNOWN
 Author: zhangpanpan
@@ -16,6 +16,7 @@ Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.6
 Classifier: Programming Language :: Python :: 3.7
 Classifier: Topic :: System :: Monitoring
+License-File: AUTHORS
 
 # db_migration
 数据库迁移手脚架

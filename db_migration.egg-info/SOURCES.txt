@@ -22,6 +22,7 @@ db_migration/db/sqlalchemy/migration.py
 db_migration/db/sqlalchemy/alembic/README
 db_migration/db/sqlalchemy/alembic/env.py
 db_migration/db/sqlalchemy/alembic/script.py.mako
+db_migration/db/sqlalchemy/alembic/version/__init__.py
 db_migration/db/sqlalchemy/models/__init__.py
 db_migration/db/sqlalchemy/models/base.py
 db_migration/db/sqlalchemy/models/user_model.py
@@ -35,5 +36,5 @@ db_migration/db/sqlalchemy/migration.py
 db_migration/db/sqlalchemy/models/__init__.py
 db_migration/db/sqlalchemy/models/base.py
 db_migration/db/sqlalchemy/models/user_model.py
-etc/db_migration/db_migration.conf
+dist/db_migration-0.0.1.dev1.tar.gz
 etc/db_migration/db_migration.conf
