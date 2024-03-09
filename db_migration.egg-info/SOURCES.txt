@@ -37,3 +37,4 @@ db_migration/db/sqlalchemy/models/__init__.py
 db_migration/db/sqlalchemy/models/base.py
 db_migration/db/sqlalchemy/models/user_model.py
 etc/db_migration/db_migration.conf
+etc/db_migration/db_migration.conf
