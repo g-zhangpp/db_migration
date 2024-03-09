@@ -1,0 +1,1 @@
+from db_migration.db.sqlalchemy.models import user_model
