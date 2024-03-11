@@ -1,7 +1,9 @@
 from oslo_config import cfg
 from db_migration.db import migration
 
-CONF = cfg.CONF
+import db_migration.conf
+
+CONF = db_migration.conf.CONF
 
 
 class MultipleModulesRevisions(Exception):
@@ -67,7 +69,6 @@ def main():
     import sys
     argv = sys.argv
     cfg.CONF(argv[1:], project='db_migration')
-    print(CONF.command.func.__name__)
     CONF.command.func()
 
 
